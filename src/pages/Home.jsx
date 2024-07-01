@@ -30,8 +30,7 @@ const Home = () => {
                 </Container>
             </div>
         )
-    }
-
+    } else{
     return (
         <div className='w-full py-8'>
             <Container>
@@ -46,7 +45,7 @@ const Home = () => {
                 </div>
             </Container>
         </div>
-    )
+    )}
 }
 
 export default Home;
