@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom';
-import React from 'react';
-import Logo from '../Logo';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import Logo from '../Logo'
 
-const Footer = () => {
-    return (
+function Footer() {
+  return (
     <section className="relative overflow-hidden py-10 bg-gray-400 border border-t-2 border-t-black">
             <div className="relative z-10 mx-auto max-w-7xl px-4">
                 <div className="-m-6 flex flex-wrap">
@@ -136,7 +136,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </section>)
+        </section>
+  )
 }
 
-export default Footer;
+export default Footer
