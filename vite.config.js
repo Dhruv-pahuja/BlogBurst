@@ -10,6 +10,6 @@ export default defineConfig({
   
   base: '/BlogBurst/', // Replace 'your-repo-name' with your actual repository name
   build: {
-    outDir: 'docs', // Change 'docs' to any other directory name if needed
+    outDir: 'build', // Change 'docs' to any other directory name if needed
   },
 })
