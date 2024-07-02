@@ -13,6 +13,7 @@ export default function RTE({name, control, label, defaultValue =""}) {
     control={control}
     render={({field: {onChange}}) => (
         <Editor
+        apiKey='bxfquvqht98bqqioq3mzwrrkggjgemnhlyl8rtlvj834779u'
         initialValue={defaultValue}
         init={{
             initialValue: defaultValue,
